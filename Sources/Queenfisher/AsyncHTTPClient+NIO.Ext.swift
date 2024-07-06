@@ -7,6 +7,7 @@
 import Foundation
 import NIO
 import NIOHTTP1
+import NIOFoundationCompat
 import AsyncHTTPClient
 
 var defaultEncoder: JSONEncoder = {
